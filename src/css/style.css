@@ -22,12 +22,12 @@
 
 :root {
 
-    --red: hsl(4, 100%, 67%);
+    --red: #ff6257;
 
-    --blue-800: hsl(234, 29%, 20%);
-    --blue-700: hsl(235, 18%, 26%);
-    --grey: hsl(0, 0%,58%);
-    --white: hsl(0, 0%, 100%);
+    --blue-800: #242742;
+    --blue-700: #36384e;
+    --grey: #949494;
+    --white: #ffffff;
 
     --font-primary: 'Roboto', Arial, sans-serif;
     
