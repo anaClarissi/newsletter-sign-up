@@ -39,58 +39,62 @@
 
         </picture>
 
-        <div class="content">
+        <div class="primary-container">
 
-          <h1 class="title">Stay updated! </h1>
+          <div class="content">
 
-          <p class="subtitle">Join 60,000+ product managers receiving monthly updates on:</p>
+            <h1 class="title">Stay updated! </h1>
 
-          <ul class="list">
+            <p class="subtitle">Join 60,000+ product managers receiving monthly updates on:</p>
 
-            <li class="list-item">
+            <ul class="list">
 
-              <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
+              <li class="list-item">
 
-              <span>Product discovery and building what matters</span>
+                <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
 
-            </li>
+                <span>Product discovery and building what matters</span>
 
-            <li class="list-item">
+              </li>
 
-              <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
+              <li class="list-item">
 
-              <span>Measuring to ensure updates are a success</span>
+                <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
 
-            </li>
+                <span>Measuring to ensure updates are a success</span>
 
-            <li class="list-item">
+              </li>
 
-              <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
+              <li class="list-item">
 
-              <span>And much more!</span>
+                <img src="./src/assets/images/icon-list.svg" alt="Icon List" class="list-icon" aria-hidden="true">
 
-            </li>
+                <span>And much more!</span>
 
-          </ul>
+              </li>
 
+            </ul>
+
+
+          </div>
+
+          <form id="form">
+
+              <fieldset>
+
+                <label for="email">Email address </label>
+
+                <p class="error-message" id="error-email" hidden aria-live="polite" aria-label="error-email">Valid email required</p>
+
+                <input type="email" name="email" id="email" placeholder="email@company.com" aria-labelledby="error-email" required>
+
+              </fieldset>
+
+              <button class="btn-subscribe" type="submit">Subscribe to monthly newsletter</button>
+              
+          </form>
 
         </div>
-
-        <form id="form">
-
-            <fieldset>
-
-              <label for="email">Email address </label>
-
-              <p class="error-message" id="error-email" hidden aria-live="polite" aria-label="error-email">Valid email required</p>
-
-              <input type="email" name="email" id="email" placeholder="email@company.com" aria-labelledby="error-email" required>
-
-            </fieldset>
-
-            <button class="btn-subscribe" type="submit">Subscribe to monthly newsletter</button>
-            
-        </form>
       
       </div>
     </main>

@@ -76,6 +76,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    max-width: 1000px;
     height: 100vh;
     padding-bottom: 2rem;
     background-color: var(--white);
@@ -83,8 +84,7 @@ body {
 
 #img,
 #img img {
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
 }
 
 .content {
@@ -143,6 +143,7 @@ body {
 label[for="email"] {
     color: var(--blue-800);
     font-size: 0.75rem;
+    font-weight: 700;
 }
 
 #email,
@@ -169,6 +170,7 @@ label[for="email"] {
     font-weight: 700;
     color: var(--white);
     background-color: var(--blue-800);
+    cursor: pointer;
 }
 
 
@@ -238,4 +240,45 @@ label[for="email"] {
     color: var(--white);
     border-radius: 0.5rem;
     background-color: var(--blue-800);
+}
+
+
+
+/*========================*/
+/*     DESKTOP DESIGN     */
+/*========================*/
+
+@media (min-width: 960px) {
+
+    /*========================*/
+    /*       CONTAINER        */
+    /*========================*/
+
+    .container {
+        flex-direction: row-reverse;
+        padding: 1.5rem;
+        height: fit-content;
+        border-radius: 2.5rem;
+        box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .primary-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #img {
+        width: 40%;
+    }
+    
+    #img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
 }
