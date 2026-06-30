@@ -95,18 +95,24 @@
       </div>
     </main>
 
-    <article hidden aria-live="polite">
+    <article id="message-success" aria-live="polite" hidden>
 
-      <h2 class="title">Thanks for subscribing! </h2>
+      <div class="message-content">
 
-      <p>
-        A confirmation email has been sent to
-        <span id="email-digit">ash@loremcompany.com</span>.
-        Please open it and click the button inside to
-        confirm your subscription.
-      </p>
+        <img src="src/assets/images/icon-success.svg" alt="Icon Success" class="message-icon">
 
-      <button type="button">Dismiss message</button>
+        <h2 class="title">Thanks for subscribing! </h2>
+
+        <p>
+          A confirmation email has been sent to
+          <span id="email-digit">ash@loremcompany.com</span>.
+          Please open it and click the button inside to
+          confirm your subscription.
+        </p>
+
+      </div>
+
+      <button class="btn-dismiss" type="button">Dismiss message</button>
       
     </article>
 

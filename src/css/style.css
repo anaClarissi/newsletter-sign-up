@@ -169,3 +169,45 @@ label[for="email"] {
     color: var(--white);
     background-color: var(--blue-800);
 }
+
+
+
+/*========================*/
+/*     MESSAGE SUCCESS    */
+/*========================*/
+
+#message-success {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.message-icon {
+    max-width: 5rem;
+}
+
+#email-digit {
+    font-weight: 700;
+    color: var(--blue-800);
+}
+
+.btn-dismiss {
+    padding: 1.25rem;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    color: var(--white);
+    border-radius: 0.5rem;
+    background-color: var(--blue-800);
+}
