@@ -25,6 +25,9 @@
     --red: #ff6257;
     --red-10: #ff625720;
 
+    --gradient-color-primary: #FF5379;
+    --gradient-color-secondary: #FF693E;
+
     --blue-800: #242742;
     --blue-700: #36384e;
     --grey: #949494;
@@ -62,6 +65,11 @@ body {
     border-radius: 0.5rem;
     background-color: var(--blue-800);
     cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-image: linear-gradient(to right, var(--gradient-color-primary), var(--gradient-color-secondary));
 }
 
 
